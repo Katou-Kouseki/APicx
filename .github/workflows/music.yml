@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: zonemeen/netease-recent-actions@v1.0.33
+      - uses: Katou-Kouseki/netease-recent-actions@main
         with:
           id: '59878659' # Your NetEase Cloud Music account id
           theme: 'light' # 主题
