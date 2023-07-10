@@ -29,7 +29,8 @@ jobs:
       - name: Rename SVG file
         run: mv 163.svg 163-light.svg
 
-  build-dark:
+  build-dark-theme:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: Katou-Kouseki/netease-recent-actions@main
