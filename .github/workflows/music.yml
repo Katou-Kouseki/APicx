@@ -16,9 +16,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: zonemeen/netease-recent-actions@latest
+      - uses: zonemeen/netease-recent-actions@v1.0.33
         with:
           id: '59878659' # Your NetEase Cloud Music account id
+          title: '最近在听'
           size: 800
           width: 410
           type: '1' # 0为所有听过排行
+          number: 3 # 歌曲数量
+
